@@ -70,8 +70,7 @@ section h2 {
 .prev,
 .next {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 55%;
     font-size: 1.5rem;
     background-color: rgba(0, 0, 0, 0.3);
     border: none;
@@ -92,7 +91,7 @@ section h2 {
 }
 
 .next {
-    right: 30px;
+    right: 40px;
 }
 
 .next:hover {
