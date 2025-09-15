@@ -47,11 +47,10 @@ img {
 
 .menu {
     position: absolute;
-    padding-top: 50px;
     width: 30px;
     height: 30px;
     right: 10px;
-    top: 5px;
+    top: 15px;
     border: none;
     background-color: transparent;
     border-radius: 6px;
