@@ -83,7 +83,7 @@ section h2 {
 }
 
 .prev {
-    left: 60px;
+    left: 40px;
 }
 
 .prev:hover {
@@ -92,7 +92,7 @@ section h2 {
 }
 
 .next {
-    right: 60px;
+    right: 30px;
 }
 
 .next:hover {
