@@ -48,6 +48,8 @@ section h2 {
     max-width: 100%;
     scroll-snap-align: start;
     text-align: center;
+    border: 1px solid red;
+    margin: 20px 10px;
 }
 
 .slide img {
@@ -55,7 +57,7 @@ section h2 {
     height: 300px;
     aspect-ratio: 16/9;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 4px;
     box-shadow: 2px 0 6px black;
 }
 
