@@ -1,0 +1,110 @@
+/* MAIN GENERAL */
+main {
+    padding-top: 200px;
+    /* espacio para no tapar por el header */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* SECCIONES GENERALES */
+section {
+    padding: 40px 20px;
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #222;
+    background-color: rgb(25, 159, 137);
+    padding: 20px;
+    color: white;
+    border-radius: 4px;
+}
+
+.carrusel {
+    position: relative;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.3s ease;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 10px;
+}
+
+.slide {
+    min-width: 90%;
+    max-width: 100%;
+    scroll-snap-align: start;
+    text-align: center;
+}
+
+.slide img {
+    width: 100%;
+    height: 300px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 2px 0 6px black;
+}
+
+.caption {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Botones del carrusel */
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 30%;
+}
+
+.prev {
+    left: 60px;
+}
+
+.prev:hover {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.next {
+    right: 60px;
+}
+
+.next:hover {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+/* Slide activo */
+.slide {
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}

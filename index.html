@@ -1,33 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Villa Soccer es mucho más que un centro formativo de fútbol: es un espacio donde el deporte se convierte en una herramienta poderosa para transformar vidas. Nuestro objetivo es formar a los futbolistas del futuro, no solo en lo técnico y táctico, sino también en lo físico, mental y emocional.">
+    <meta name="author" content="Jerjes Mariluz C.">
+    <title>Villa Soccer - Formación Integral de Futbolistas</title>
+    <meta property="og:title" content="Villa Soccer">
+    <meta property="og:description" content="Villa Soccer es mucho más que un centro formativo de fútbol: es un espacio donde el deporte se convierte en una herramienta poderosa para transformar vidas. Nuestro objetivo es formar a los futbolistas del futuro, no solo en lo técnico y táctico, sino también en lo físico, mental y emocional.">
+    <meta property="og:image" content="https://jjerjes.github.io/villa-soccer/img/header/logo.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/JJerjes/villa-soccer">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- <meta name="twitter:site" content="@VillaSoccerOficial"> -->
+    <meta name="twitter:title" content="Villa Soccer">
+    <meta name="twitter:description" content="Villa Soccer es mucho más que un centro formativo de fútbol: es un espacio donde el deporte se convierte en una herramienta poderosa para transformar vidas. Nuestro objetivo es formar a los futbolistas del futuro, no solo en lo técnico y táctico, sino también en lo físico, mental y emocional.">
+    <meta name="twitter:image" content="https://jjerjes.github.io/villa-soccer/img/header/logo.jpg">
+    <meta name="twitter:url" content="https://github.com/JJerjes/villa-soccer">
+    <link rel="icon" href="favicon-vs.ico" type="image/x-icon">
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="/villa-soccer/favicon-32x32.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="/villa-soccer/favicon-16x16.png"> -->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/villa-soccer/apple-touch-icon.png"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/main.css">
     <script src="scripts/barra-burguer.js" defer></script>
+    <script src="scripts/noticias.js" defer></script>
 </head>
 <body>
-    <header id="header" class="header">
-        <div class="h1">
-            <h1>VILLA SOCCER</h1>
-        </div>
-
-        <div id="nav" class="nav">
-            <nav>
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Contactanos</a></li>
-                </ul>
-                <button id="menu" class="menu" aria-label="Toggle menu" aria-expanded="false"></button>
-            </nav>
-        </div>
+       <header id="header" class="header">
+        <a href="#" class="img">
+            <img src="img/header/logo.jpg" alt="Logo de villa soccer" loading="lazy" width="150">
+        </a>
+        <nav id="nav" class="nav">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <button id="menu" class="menu" aria-label="Toggle menu" aria-expanded="false"></button>
     </header>
 
     <main>
+        <section  id="noticias" class="carrusel">
+            <h2>Villa Soccer Noticias</h2>
+            <div id="carrusel-noticias" class="slides">
 
+            </div>
+
+            <button class="prev" aria-label="Anterior">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="next" aria-label="Siguiente">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </section>
     </main>
 
     <footer>

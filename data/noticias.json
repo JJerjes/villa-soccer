@@ -1,0 +1,37 @@
+[
+    {
+        "imagen": "img/noticias-carrusel/nutricion.avif",
+        "titulo": "Inaguracion oficial de Villa Soccer",
+        "alt": "Foto de inaguracion"
+    },
+    {
+        "imagen": "img/noticias-carrusel/nutricion.avif",
+        "titulo": "Charla nutricional: cómo alimentarse como un profesional",
+        "alt": "Charla educativa sobre nutrición deportiva"
+    },
+    {
+        "imagen": "img/noticias-carrusel/gimnasio.avif",
+        "titulo": "Charla: Importancia del gimnasio en el desarrollo físico",
+        "alt": "Entrenadores hablando de rutinas y fuerza"
+    },
+    {
+        "imagen": "img/noticias-carrusel/descanso.avif",
+        "titulo": "Charla: El descanso como parte del entrenamiento",
+        "alt": "Charla con especialistas en recuperación y sueño"
+    },
+    {
+        "imagen": "img/noticias-carrusel/nutricion.avif",
+        "titulo": "Evento mensual: Charlas y actividades formativas",
+        "alt": "Evento mensual educativo para deportistas"
+    },
+    {
+        "imagen": "img/noticias-carrusel/amistoso-reserva.avif",
+        "titulo": "Partido amistoso con la reserva de club profesional",
+        "alt": "Partido de práctica contra reserva de equipo profesional"
+    },
+    {
+        "imagen": "img/noticias-carrusel/division-menores.avif",
+        "titulo": "Partido amistoso con divisiones menores de equipos de Liga 1",
+        "alt": "Encuentro con menores de clubes profesionales"
+    }
+]

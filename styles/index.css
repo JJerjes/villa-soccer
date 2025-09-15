@@ -13,41 +13,48 @@ body {
     ;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
 }
 
-
+/*HEADER*/
 .header {
-    border: 1px solid red;
+    grid-area: header;
     position: fixed;
     width: 100%;
     top: 0;
-    padding: 20px;
+    padding: 10px;
     z-index: 1000;
     display: flex;
-    flex-direction: column;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.h1 {
+.img {
     display: flex;
     justify-content: center;
-    padding: 20px 10px;
-    color: rgb(21, 156, 42);
+    padding: 10px;
+    width: 100%;
+}
+
+img {
+    width: 120px;
+    border-radius: 50%;
 }
 
 .menu {
     position: absolute;
+    padding-top: 80px;
     width: 30px;
     height: 30px;
-    right: 5px;
+    right: 10px;
     top: 5px;
     border: none;
     background-color: transparent;
-    border-radius: 7px;
+    border-radius: 6px;
     cursor: pointer;
     display: block;
 }
@@ -65,19 +72,30 @@ body {
     content: '✕';
     width: 27px;
     height: 27px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .nav {
+    display: none;
     flex-direction: column;
     width: 100%;
+    position: absolute;
+    top: 100%;
+    /* Justo debajo del header */
+    left: 0;
+    background-color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
 }
 
 .nav ul {
     list-style: none;
+    display: flex;
+    flex-direction: column;
     width: 100%;
 }
 
@@ -88,16 +106,29 @@ body {
 .nav a {
     text-decoration: none;
     display: block;
-    width: 100%;
-    padding: 8px;
+    width: 35%;
+    padding: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     color: black;
     text-align: start;
 }
 
 .nav a:hover {
-    color: red;
+    color: rgb(12, 110, 121);
 }
 
 .nav.open {
     display: flex;
 }
+
+/*MAIN*/
+/*CARUSEL-NOTICIAS*/
+
+
+@media (min-width: 375px) {}
+
+@media (min-width: 425px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {}
